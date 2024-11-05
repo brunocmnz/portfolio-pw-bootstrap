@@ -34,7 +34,7 @@ nav img{
     padding-right: 1rem;
 }
 
-#conteudo img{
+#conteudo .teste{
     height: 500px;
     width: 550px;
     border: 5px solid rgb(84, 127, 246);
@@ -86,7 +86,7 @@ nav li a:hover{
 }
 
 #descricao{
-    width: 70vw;
+    width: 65rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,13 +100,15 @@ nav li a:hover{
 }
 
 .descricao__imagem{
-    width: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 20px;
 }
 
 #descricao-texto{
     font-size: 28px;
-    width: 500px;
+    width: 850px;
     line-height: 28px;
 }
 
@@ -146,13 +148,12 @@ li li{
 }
 
 .portfolio-item-titulo{
-    width: 100vw;
+    width: 80rem;
     text-align: center;
     line-height: 35px;
     font-size: 30px;
     margin: 2rem 0;
     font-weight: 700;
-    width: 100vw;
     margin-right: auto;
 }
 
