@@ -30,7 +30,8 @@ nav{
 
 nav img{
     max-height: 80px;
-    margin-left: 5rem;
+    margin-left: 40vw;
+    padding-right: 1rem;
 }
 
 #conteudo img{
@@ -40,7 +41,6 @@ nav img{
 }
 
 nav ul{
-    margin-left: auto;
 }
 
 nav li{
@@ -90,7 +90,6 @@ nav li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
     margin-left: auto;
     margin-right: auto;
     gap: 2rem;
@@ -123,7 +122,7 @@ nav li a:hover{
     text-decoration: underline;
     text-decoration-color: var(--cor-texto-nav);
     text-underline-offset: 7px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 ul {
@@ -151,7 +150,7 @@ li li{
     text-align: center;
     line-height: 35px;
     font-size: 30px;
-    margin-top: 2rem;
+    margin: 2rem 0;
     font-weight: 700;
     width: 100vw;
     margin-right: auto;
